@@ -1,12 +1,11 @@
 {
   "version": 2,
-  "name": "backend",
-  "builds": [
+    "builds": [
     {
       "src": "dist/server.ts",
       "use": "@vercel/node",
       "config": {
-        "includeFiles": ["dist/**/*"]        
+        "includeFiles": ["dist/**"]        
       }
     }
   ],
